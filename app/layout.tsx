@@ -1,7 +1,7 @@
-import { Metadata } from "next";
+import type { Metadata } from "next";
 import './globals.css';
 
-const metadata: Metadata = {
+export const metadata: Metadata = {
   title: "Fit By MR",
   description: "addict to gyms",
 };
@@ -12,7 +12,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html data-theme="light" lang="en">
       <body>
         {children}
       </body>
