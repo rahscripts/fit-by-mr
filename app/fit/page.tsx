@@ -6,7 +6,7 @@ export default function Home() {
 
   return (
     <div className={dmsans.className}>
-      <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-l from-green-300 via-green-400 to-green-300">
+      <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-t from-white-300 via-green-400 to-white-300">
         <h1 className="text-3xl font-extrabold mb-8">Fit By MR</h1>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {muscles.map((muscle) => (
