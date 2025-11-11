@@ -53,22 +53,23 @@ export default async function MusclePage({ params }: PageProps) {
   }
 
   return (
-    <div className="flex flex-col items-center mt-10 px-4">
-      <h1 className="text-3xl font-bold capitalize mb-4">
-        {muscle} Workout
-      </h1>
-      <p className="mb-4 text-center text-gray-600">
-        Best video across the internet for your targeted muscle:
-      </p>
-
-      <div className="relative w-full max-w-3xl pb-[56.25%]">
-        <iframe
-          src={video}
-          title={`${muscle} workout video`}
-          className="absolute top-0 left-0 w-full h-full rounded-xl"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
+    <div className="min-h-screen bg-gradient-to-t from-green-200 via-blue-100 to-red-200">
+      <div className="flex flex-col items-center p-10 px-4  ">
+        <h1 className="text-3xl font-bold capitalize mb-4">
+          {muscle} Workout
+        </h1>
+        <p className="mb-4 text-center text-gray-600">
+          Best video across the internet for your targeted muscle:
+        </p>
+        <div className="relative w-full max-w-3xl pb-[56.25%]">
+          <iframe
+            src={video}
+            title={`${muscle} workout video`}
+            className="absolute top-0 left-0 w-full h-full rounded-xl"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
       </div>
     </div>
   );
