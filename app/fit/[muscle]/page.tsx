@@ -2,10 +2,10 @@ import React from "react";
 import Link from "next/link";
 
 const muscleVideos: Record<string, string> = {
-  chest: "https://www.youtube.com/embed/VI1TpdzGI0A",
-  back: "https://www.youtube.com/embed/2XdTxUS6uSg",
-  arms: "https://www.youtube.com/embed/5MQ1x3Zr0IY",
-  abs: "https://www.youtube.com/embed/WSu-wci9uTo",
+  chest: "https://www.youtube.com/embed/fGm-ef-4PVk?si=C6E9_2MhC_I6LUwM",
+  back: "https://www.youtube.com/embed/jLvqKgW-_G8?si=KdcdNprTkvRwyf2L" ,
+  arms: "https://www.youtube.com/embed/na7MaK-Powg?si=8zd4tBhERGYslWDT" ,
+  abs: "https://www.youtube.com/embed/Tn-XvYG9x7w?si=qSFiVuBiYxBAFoF-" ,
   shoulder: "https://www.youtube.com/embed/qEwKCR5JCog",
 };
 

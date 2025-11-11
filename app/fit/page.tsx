@@ -13,7 +13,7 @@ export default function Home() {
             <Link
               key={muscle}
               href={`/fit/${muscle}`}
-              className="bg-green-900 text-white font-semibold p-4 w-40 text-center rounded-xl hover:bg-black hover:text-white transition-all capitalize"
+              className="bg-green-900 btn btn-primary text-white font-semibold p-4 w-40 text-center rounded-xl hover:bg-black hover:text-white transition-all capitalize"
             >
               {muscle}
             </Link>
